@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mirage22-astropical
+    runtime: static
+    buildCommand: echo 'Site estatico pronto'
+    staticPublishPath: .
